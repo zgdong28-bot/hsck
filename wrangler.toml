@@ -13,9 +13,9 @@ compatibility_flags = ["nodejs_compat"]
 crons = ["0 * * * *"]  # 每小时触发，实际执行频率由 Admin 设置的聚合间隔控制
 
 [[kv_namespaces]]
-binding = "KV"
-id = "f2e8a354c355434b8987a44c4634cdf3"
-preview_id = "f2e8a354c355434b8987a44c4634cdf3"
+binding = "hsck"
+id = "4c2889b027ce47f5bc08c46d3a774be1"
+preview_id = "4c2889b027ce47f5bc08c46d3a774be1"
 
 [vars]
 SPEED_TIMEOUT_MS = "5000"   # 源地址延迟阈值（毫秒）
